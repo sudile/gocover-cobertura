@@ -18,7 +18,7 @@ Installation
 
 Just type the following to install the program and its dependencies:
 
-    $ go get github.com/boumenot/gocover-cobertura
+    $ go get github.com/sudile/gocover-cobertura
 
 Usage
 -----
@@ -41,11 +41,11 @@ Some flags can be passed (each flag should only be used once):
 
   ignore directories matching `PATTERN` regular expression. Full
   directory names are matched, as
-  `github.com/boumenot/gocover-cobertura` (and so `github.com/boumenot`
+  `github.com/sudile/gocover-cobertura` (and so `github.com/sudile`
   and `github.com`), examples of use:
   ```
   # A specific directory
-  -ignore-dirs '^github\.com/boumenot/gocover-cobertura/testdata$'
+  -ignore-dirs '^github\.com/sudile/gocover-cobertura/testdata$'
   # All directories autogen and any of their subdirs
   -ignore-dirs '/autogen$'
   ```
@@ -53,11 +53,11 @@ Some flags can be passed (each flag should only be used once):
 - `-ignore-files PATTERN`
 
   ignore files matching `PATTERN` regular expression. Full file names
-  are matched, as `github.com/boumenot/gocover-cobertura/profile.go`,
+  are matched, as `github.com/sudile/gocover-cobertura/profile.go`,
   examples of use:
   ```
   # A specific file
-  -ignore-files '^github\.com/boumenot/gocover-cobertura/profile\.go$'
+  -ignore-files '^github\.com/sudile/gocover-cobertura/profile\.go$'
   # All files ending with _gen.go
   -ignore-files '_gen\.go$'
   # All files in a directory autogen (or any of its subdirs)
